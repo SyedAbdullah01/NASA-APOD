@@ -125,6 +125,3 @@ function removeFavourite(itemUrl) {
 
 // On load
 getNasaPictures();
-
-/* Difference between 'append' and 'appendChild':
-'apppend' is used when we want to append multiple objects whereas 'appendChild' is used when we want to append one object */
