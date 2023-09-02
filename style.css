@@ -1,0 +1,133 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: whitesmoke;
+  overflow-x: hidden;
+  font-family: Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.31rem;
+  margin-bottom: 1.56rem;
+}
+
+/* Loader */
+
+.loader {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  background-color: whitesmoke;
+}
+
+/* Navigation */
+.navigation-container {
+  position: fixed;
+  top: 0;
+}
+
+.navigation-items {
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  background: whitesmoke;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  height: 3.75rem;
+  z-index: -1;
+}
+
+.clickable {
+  cursor: pointer;
+  color: blueviolet;
+  user-select: none;
+}
+.clickable:hover {
+  color: rgb(102, 27, 172);
+}
+/* Images Container */
+.images-container {
+  margin-top: 3.12rem;
+  width: 50rem;
+}
+
+.card {
+  background: white;
+  margin: 0.62rem 0.62rem 1.25rem;
+  border-radius: 0.31rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 1.25rem;
+}
+
+.card-title {
+  margin: 0.62rem auto;
+  font-size: 1.5rem;
+}
+
+/* Save Confirmation */
+.save-confirmed {
+  font-size: smaller;
+  background: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.31rem;
+  box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  position: fixed;
+  bottom: 2.18rem;
+  right: 3.12rem;
+}
+
+/* Hidden */
+.hidden {
+  display: none;
+}
+
+/* Large Smartphone (Vertical) */
+@media screen and (max-width: 800px) {
+  body {
+    line-height: 1.4rem;
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .images-container {
+    width: 100%;
+  }
+
+  .save-confirmed {
+    right: 2.18rem;
+  }
+}
