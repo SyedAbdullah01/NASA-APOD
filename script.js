@@ -5,7 +5,7 @@ const saveConfirmed = document.querySelector('.save-confirmed');
 const loader = document.querySelector('.loader');
 
 const count = 10;
-const apiKey = 'ah8gqJNbV00d5lgk6WgotFV4FbBbnSHSv4d7iA1K'
+const apiKey = 'API_KEY'
 const apiUrl = `https://api.nasa.gov/planetary/apod?api_key=${apiKey}&count=${count}`;
 
 let resultsArray = [];
