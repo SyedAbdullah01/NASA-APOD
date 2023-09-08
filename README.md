@@ -64,5 +64,7 @@ This project utilizes the following technologies:
 
 - **GitHub**: For hosting and sharing the codebase.
 
+- **Netlify**: The web application is hosted and deployed using Netlify, providing a platform for easy accessibility via the provided link.
+
 Make sure you have a good understanding of these technologies to work on or modify the project.
 
