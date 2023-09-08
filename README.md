@@ -9,6 +9,7 @@ NASA APOD is a web application that allows users to explore the Astronomy Pictur
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Features](#features)
+- [Technologies Used](#technologies-used)
 
 ## Getting Started
 
@@ -48,3 +49,20 @@ To run this project locally or deploy it, follow these simple steps:
 - Explore detailed explanations of each image.
 
 - Responsive design for various screen sizes.
+
+## Technologies Used
+
+This project utilizes the following technologies:
+
+- **HTML**: For structuring the web page.
+
+- **CSS**: For styling the web page and making it responsive.
+
+- **JavaScript**: For fetching data from NASA's API and adding interactivity to the web page.
+
+- **NASA API**: To retrieve Astronomy Picture of the Day data.
+
+- **GitHub**: For hosting and sharing the codebase.
+
+Make sure you have a good understanding of these technologies to work on or modify the project.
+
